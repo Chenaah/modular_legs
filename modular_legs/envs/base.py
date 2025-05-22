@@ -274,7 +274,7 @@ class RealSim(gym.Env):
         info_extra = {
                       "policy_switch": self.policy_switch,
                       "upsidedown": self.brain.is_upsidedown(),
-                      "chopped": self.brain.is_chopped(), # TODO: Only PosC chopped is implemented
+                    #   "chopped": self.brain.is_chopped(), 
                     }
         info.update(info_extra)
         info.update(reward_info)

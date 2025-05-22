@@ -686,6 +686,7 @@ class RobotBuilder():
             filename = os.path.join(LEG_ROOT_DIR, "modular_legs", "sim", "assets", "robots", f'{filename}.xml')
 
         self.tree.write(filename, pretty_print=True, xml_declaration=False, encoding='utf-8')
+        print(f"Saved the robot to {filename}")
         return filename
     
     def get_xml(self, fix_file_path=False):

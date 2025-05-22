@@ -6,11 +6,9 @@ setup(
     version="0.1",
     packages=find_packages(),
     install_requires=[
-        "modular_legs",
         "pyyaml",
         "omegaconf",
         "gymnasium",
-        "gymnasium[other]",
         "sbx-rl",
         "wandb",
         "mujoco",
@@ -18,10 +16,11 @@ setup(
         "pytorch_lightning",
         "imageio",
         "tensorboard",
+        "moviepy",
         "jax[cuda12]",
     ],
     extras_require={
-        "full": [
+        "all": [
             "ray",
             "mujoco-mjx",
             "tensorflow",

@@ -16,7 +16,7 @@ conda activate modular_legs
 
 Install the full version (including Bayesian optimization support):
 ```bash
-pip install -e .[full]
+pip install -e ".[all]"
 ```
 
 Or install the minimal version without Bayesian optimization:
