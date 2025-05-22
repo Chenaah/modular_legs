@@ -63,7 +63,7 @@ Next, download the VAE training dataset:
 ```bash
 python ./data/download.py designs_filtered
 ```
-*Note: The VAE generator script and pretrained checkpoints will be released soon.*
+*Note: The dataset generator script and VAE pretrained checkpoints will be released soon.*
 
 Once the dataset is ready, run the optimization script:
 ```bash
