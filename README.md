@@ -8,21 +8,24 @@ Stay tuned for improvements and expanded functionality. If you run into any issu
 
 ## Installation
 
+First, clone the repository:
+```bash
+git clone https://github.com/Chenaah/modular_legs.git
+cd modular_legs
+```
+
 Create a Conda environment with Python 3.10
 ```bash
 conda create -n modular_legs python=3.10
 conda activate modular_legs
 ```
 
-Install the full version (including Bayesian optimization support):
+Install the package:
 ```bash
 pip install -e ".[all]"
 ```
 
-Or install the minimal version without Bayesian optimization:
-```bash
-pip install -e .
-```
+
 
 
 ## Usage
