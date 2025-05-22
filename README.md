@@ -8,6 +8,12 @@ Stay tuned for improvements and expanded functionality. If you run into any issu
 
 ## Installation
 
+Create a Conda environment with Python 3.10
+```bash
+conda create -n modular_legs python=3.10
+conda activate modular_legs
+```
+
 Install the full version (including Bayesian optimization support):
 ```bash
 pip install -e .[full]
