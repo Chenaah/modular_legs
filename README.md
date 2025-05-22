@@ -61,7 +61,7 @@ pip install git+https://github.com/secondmind-labs/trieste.git
 
 Next, download the VAE training dataset:
 ```bash
-python ./data/download.py designs_filtered
+python data/download.py designs_filtered
 ```
 *Note: The dataset generator script and VAE pretrained checkpoints will be released soon.*
 
