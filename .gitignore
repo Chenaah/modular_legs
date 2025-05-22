@@ -2,7 +2,8 @@ logs/
 exp/
 wandb/
 ./models/
-data/
+data/rollouts/
+data/designs/
 ./test/
 *.jit
 *.npz
