@@ -21,5 +21,6 @@ setup(
         "jax[cuda12]",
         "ray",
         "mujoco-mjx",
+        "gdown",
     ],
 )

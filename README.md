@@ -16,7 +16,7 @@ cd modular_legs
 
 Create a Conda environment with Python 3.10
 ```bash
-conda create -n modular_legs python=3.10
+conda create -n modular_legs python=3.10 -y
 conda activate modular_legs
 ```
 
@@ -24,8 +24,6 @@ Install the package:
 ```bash
 pip install -e .
 ```
-
-
 
 
 ## Usage
@@ -60,7 +58,14 @@ To use Bayesian optimization, you'll need to install an additional package:
 ```bash
 pip install git+https://github.com/secondmind-labs/trieste.git
 ```
-Then run the optimization script:
+
+Next, download the VAE training dataset:
+```bash
+python ./data/download.py designs_filtered
+```
+*Note: The VAE generator script and pretrained checkpoints will be released soon.*
+
+Once the dataset is ready, run the optimization script:
 ```bash
 python modular_legs/scripts/evolve.py evolution_vae_asym_air1s
 ```
