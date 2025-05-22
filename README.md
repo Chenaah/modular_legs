@@ -53,7 +53,12 @@ python modular_legs/sim/scripts/homemade_robots_asym.py
 ```
 
 ### Run bayesian optimiation 
+To use Bayesian optimization, you'll need to install an additional package:
+```bash
+pip install git+https://github.com/secondmind-labs/trieste.git
 ```
+Then run the optimization script:
+```bash
 python modular_legs/scripts/evolve.py evolution_vae_asym_air1s
 ```
 

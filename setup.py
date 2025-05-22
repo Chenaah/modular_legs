@@ -17,14 +17,9 @@ setup(
         "imageio",
         "tensorboard",
         "moviepy",
+        "torch==2.7.0",
         "jax[cuda12]",
+        "ray",
+        "mujoco-mjx",
     ],
-    extras_require={
-        "all": [
-            "ray",
-            "mujoco-mjx",
-            "tensorflow",
-            "trieste",
-        ],
-    },
 )
