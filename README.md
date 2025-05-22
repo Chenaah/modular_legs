@@ -22,7 +22,7 @@ conda activate modular_legs
 
 Install the package:
 ```bash
-pip install -e ".[all]"
+pip install -e .
 ```
 
 
