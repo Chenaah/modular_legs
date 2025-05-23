@@ -1,4 +1,7 @@
 
+> ⚠️ **Note:** This repository has been moved to [modularlegs](https://github.com/Chenaah/modularlegs).  
+> Please update your bookmarks and clone the new URL for the latest updates.
+
 # Reconfigurable Legged Metamachines that Run on Autonomous Modular Legs
 
 This repository contains the codebase for the paper "Reconfigurable Legged Metamachines that Run on Autonomous Modular Legs" (under review). The code is currently undergoing active development and cleanup. In the coming updates, we will release additional training examples, debugging tools, pretrained models, tutorials, a more user-friendly API, and documentation for customizing the morphology optimization pipeline.
